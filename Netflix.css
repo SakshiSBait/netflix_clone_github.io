@@ -1,0 +1,775 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./image1/netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 10%;
+    margin-top: 1rem;
+    
+}
+header #left{
+    width: 10%;
+    text-align: center;
+}
+header #left #net{
+    width: 130%;
+}
+header #right{
+    display: flex;
+    width: 17%;
+    gap: 1.5rem;
+    position: relative;
+    
+}
+header #right select{
+    background-color: rgba(0, 0, 0, 0.556);
+    border:2px solid white ;
+    color: white;
+    font-size: 0.8rem;
+    width: 276%;
+    height: 5vh;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    border-radius: 5px;
+}
+header #right button{
+    background-color:#e50914 ;
+    width: 178%;
+    height:5vh ;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    
+
+}
+.fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+#getSt{
+    text-align: center;
+    color: white;
+    margin-top: 13%;
+    position: relative;
+
+} 
+#getSt h1{
+    font-size: 3.4rem;
+    margin-bottom: 0;   
+
+}
+#getSt p{
+    font-size: 1.6rem;
+    font-weight: -95;
+    margin-bottom: 1%;
+}
+#getSt #p1{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom: 1%;
+}
+#getSt #em{
+    background-color: rgba(0, 0, 0, 0.638);
+    color: rgb(255, 255, 255);
+    border: 0.5px solid white;
+    width: 20%;
+    height: 7vh;
+    padding-left: 1.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+#getSt button{
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 12%;
+    height: 7.5vh;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 0.3rem;
+}
+.fa-solid.fa-angle-right{
+    color: white;
+   position: absolute;
+   top: 85.5%;
+   left:65.3% ;
+   size: 2rem;  
+}
+#getSt #em:hover{
+    color: white;
+    outline: 1px solid white;
+}
+#getSt  #em::placeholder{
+    color:#b3b3b3;
+} 
+#enjoyTv{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 27%;
+    align-items: center;
+    
+}
+#enjoyTv div{
+    width: 60%;
+
+}
+#enjoyTv #smart h1{
+    font-size: 3rem;
+
+}
+#enjoyTv #smart p{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+#enjoyTv #tv{
+    position: relative;
+}
+#enjoyTv #tv img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#enjoyTv #tv video{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+} 
+#dwonLoad{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+
+}
+#dwonLoad #Dr{
+    width: 60%;
+   position: relative;
+
+}
+#dwonLoad #Dr #imgId{
+    width: 100%;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+    width:53% ;
+    background-color: black;
+    margin: auto;
+    border-radius: 7px;
+    padding: 0.5rem;
+    position: absolute;
+    top: 68%;
+    left: 22%;
+}
+#box #Strange{
+    width: 60%;
+    display: flex;
+    gap: 0rem;
+    align-items: center;
+}
+#box #Strange img{
+    width: 80%;
+}
+#box #Strange h3{
+    font-size: 1rem;
+}
+#box #Strange p{
+    color: blue;
+}
+#box #gif{
+    width: 15%;
+}
+#box #gif img{
+    width: 100%;
+}
+#dwonLoad #save{
+    width: 60%;
+}
+#dwonLoad #save h1{
+    font-size: 3rem;
+}
+#dwonLoad #save p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+} 
+#watchTv{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+}
+#watchTv div{
+    width: 60%;
+}
+#watchTv #watch h1{
+    font-size: 3rem;
+
+}
+#watchTv #watch p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+#watchTv #Tv{
+    position: relative;
+}
+#watchTv #Tv img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#watchTv #Tv video{
+    position: absolute;
+    top: 13%;
+    left: 19%;
+    width: 61%;
+    z-index: 1;
+}
+#creatPro{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: auto;
+    margin-top:10% ;
+    width: 80%;
+    align-items: center;
+
+}
+#creatPro div{
+    width: 60%;
+}
+#creatPro #cp img{
+    width: 100%;
+}
+#creatPro #child h1{
+    font-size: 3rem;
+}
+#creatPro #child p{
+    font-size: 1.3rem;
+}
+#askQue{ 
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+#askQue h1{
+    text-align: center;
+    font-size: 3rem;
+
+}
+#askQue ul{
+    list-style-type: none;
+    
+}
+#askQue ul li{
+    margin-bottom: 0.5rem;
+
+}
+#askQue ul li .span1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: #2d2d2d;
+    padding: 1rem;
+}
+#D1{
+    display: block;
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    background-color: #2d2d2d;
+    padding: 1rem;
+}
+#li1:hover #D1{
+    display: block;
+    
+
+}
+#D2{
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 1.5rem;
+    position: relative;
+    display: none;
+    background-color: #2d2d2d;
+    padding: 1rem;
+}
+#li2:hover #D2{
+    display: block;
+
+}
+#D3{
+    display: block;
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    background-color: #2d2d2d;
+    padding: 1rem;
+    
+}
+#li3:hover #D3{
+    display: block;
+}
+#D4{
+    display: block;
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    background-color: #2d2d2d;
+    padding: 1rem;
+}
+#li4:hover #D4{
+    display: block;
+}
+#D5{
+    display: block;
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    background-color: #2d2d2d;
+    padding: 1rem;
+}
+#li5:hover #D5{
+    display: block;
+}
+#D6{
+    display: block;
+    margin: 0.3rem 0 0.5rem 0;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    background-color: #2d2d2d;
+    padding: 1rem;
+}
+#li6:hover #D6{
+    display: block;
+}
+#GStart{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+#GStart p{
+    font-size: 1.1rem;
+
+}
+#GStart #em {
+    background-color: rgba(0, 0, 0, 0.638);
+    color: rgb(255, 255, 255);
+    border: 0.5px solid white;
+    width: 26%;
+    height: 7vh;
+    padding-left: 1.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 5px;
+
+
+}
+#GStart button{
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 14%;
+    height: 7.5vh;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 0.3rem;
+}
+#GStart i{
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 61%;
+}
+#GStart #em:hover{
+    color: white;
+    outline: 1px solid white;
+}
+#GStart #em::placeholder{
+    color:#b3b3b3;
+}
+footer{
+      width: 80%;
+      margin: auto;
+      display: block;
+
+}
+footer #DF{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 28vh;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+footer h5{
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 0% 0% 0% 2.8%;
+
+
+}
+footer #DF ul{
+    width: 26%;
+    height: 29vh;
+    padding: 0%;
+}
+footer #DF li{
+    margin: 1rem;
+}
+footer h4 a{
+    color: #b3b3b3;
+}
+a{
+    color: #b3b3b3;
+    margin: 1rem 1rem 1rem 1rem;
+} 
+
+footer #DF1 #Ul1{
+    margin: 1rem 0 0 0 ;
+    padding: 0% 0% 0% 2%;
+    width:9% ;
+    position: relative;
+    
+}
+footer #DF1 #Ul1 select{
+    background-color: rgba(0, 0, 0, 0.556);
+    border:2px solid white ;
+    color: white;
+    font-size: 0.9rem;
+    width:119%;
+    height: 5vh;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    border-radius: 5px;
+}
+footer #DF1 #Ul1 i{
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 5vh;
+       
+}
+footer #DF1 #Ul1 li h5{
+    color: #b3b3b3;
+    font-size: 1rem;
+    font-weight: 100;
+} 
+/* mobile */
+@media(max-width:600px){
+    body{
+        background-size: 250%;
+        background-position-x:center ;
+        
+    }
+    header{
+        width: 90%;
+        margin: auto;
+        margin-top: 1.3rem;
+        padding: 0;
+        
+    }
+
+    header #right{
+        gap: 0.5rem;
+        width: 45%;
+    }
+    header #left{
+        width:45%;
+       
+    }
+    header #left #net{
+        width: 67%;
+    }
+    header #right select{
+        font-size: 0rem;
+        width: 42%;
+        height: 4vh;
+        padding: 0.5rem 0.5rem 0.5rem 2rem;
+        border: 1px solid white;
+    }
+    header #right button{
+        width: 50%;
+        height:4vh ;
+        font-size: 0.8rem;
+        
+    }
+    #getSt{
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+        display: block;
+    }
+    #getSt h1{
+        font-size: 2.4rem; 
+        font-weight: 70; 
+    
+    }
+    #getSt p{
+        font-size: 1.2rem;
+        margin-bottom: 6%;
+    }
+    #getSt #p1{
+        font-size: 1.1rem;
+        margin-bottom: 3%;
+    }
+    #getSt #em{
+        width: 90%;
+        height: 5vh;
+        padding-left: 1.5rem;
+        display: block;
+        margin: 0% 0% 6% 0% ;
+    }
+    #getSt button{
+        width: 60%;
+        height: 5.5vh;
+        display: block;
+        margin: 0% 17.5% 3% 17.5%;
+    }
+    .fa-solid.fa-angle-right{
+       top: 92.5%;
+       left:67.3% ; 
+    }
+    #enjoyTv{
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-top: 4rem;
+        text-align: center;
+        
+    }
+    #enjoyTv div{
+        width: 100%;
+        margin: auto;
+    }
+    #enjoyTv #smart h1{
+        font-size: 2rem;
+    
+    }
+    #enjoyTv #smart p{
+        font-size: 1rem;
+    }
+    #enjoyTv #tv{
+        width: 100%;
+        
+    } 
+    #dwonLoad{
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    
+    }
+    #dwonLoad #Dr{
+        width:100%;
+        margin: auto;
+       
+    } 
+    #dwonLoad #Dr #imgId{
+        width: 80%;
+        margin: auto;
+    }
+    #box{
+        width:49% ;
+        margin: auto;
+        top: 68%;
+        left: 22%;
+
+    }
+    #box #Strange{
+        width: 50%;
+        display: flex;
+        gap: 0rem;
+        align-items: center;
+    }
+    #box #Strange #imgId{
+        width: 80%;
+        margin: auto
+    }
+    #box #Strange h3{
+        font-size: 0.3rem;
+    }
+    #box #Strange p{
+        font-size: 0.3rem;
+    }
+    #dwonLoad #save{
+        width: 100%;
+       
+    }
+    #dwonLoad #save h1{
+        font-size: 1.8rem;
+
+    }
+    #dwonLoad #save p{
+        font-size: 1rem;
+    }
+    /* Dwonload*/ 
+    #watchTv{
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    #watchTv div{
+        width: 100%;
+        margin: auto;
+    }
+    #watchTv #watch h1{
+        font-size:2rem;
+        margin-top: 3rem;
+    }
+    #watchTv #watch p{
+        font-size: 1rem;
+       
+    }
+    #creatPro{
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: auto;
+    
+    }
+    #creatPro div{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    #creatPro #cp img{
+        width: 100%;
+        margin: auto;
+    }
+    #creatPro #child h1{
+        font-size: 2rem;
+    }
+    #creatPro #child p{
+        font-size: 1rem;
+    }
+    #askQue{
+        color: white;
+        width: 80%;
+        margin: auto;
+        padding: 0%;
+    }
+    #askQue h1{
+        text-align: center;
+        font-size: 2rem;
+    
+    }
+    #askQue ul{
+        padding: 0%;
+    }
+    #askQue ul li .span1{
+        font-size: 1rem;
+        padding: 1.5rem;
+    }
+    #GStart{
+        width: 80%;
+        margin: auto;
+        margin-bottom:3rem;
+        margin-top: 3rem;
+        display: block;
+    }
+    #GStart p{
+        font-size: 1rem;
+    
+    }
+    #GStart #em {
+        width: 73%;
+        height: 7vh;
+        font-size: 0.9rem;
+    
+    }
+    #GStart button{
+        font-size: 1.3rem;
+        width: 53%;
+        height: 6.5vh;
+        margin-top: 1rem;
+    }
+    #GStart i{
+        left: 72%;
+        top: 79%;
+    }
+    footer{ 
+        width: 100%;
+        margin: auto;
+        display: block;
+  
+    }
+    footer #DF{
+      display: block;
+      width: 100%;
+      height: 60vh;
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      position: relative;
+    }
+    footer #DF ul{
+        width: 100%;
+        height: 20vh;
+        padding: 0%;
+    }
+    footer h5{
+        padding: 0% 0% 0% 7%;
+    
+    }
+    footer #DF1 #Ul1{
+        margin: 1rem 0 0 0 ;
+        padding: 0% 0% 0% 7%;
+        width:27% ;
+        
+    }
+    footer #DF1 #Ul1 select{
+        font-size: 0.9rem;
+        width:119%;
+        height: 5vh;
+    }
+    footer #DF1 #Ul1 i{
+        top: 11%;
+        left: 6vh;
+           
+    }
+    footer #DF1 #Ul1 li h5{
+        font-size: 1rem;
+        font-weight: 100;
+    } 
+
+
+
+}
